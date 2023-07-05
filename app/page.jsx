@@ -14,7 +14,7 @@ export default function Home() {
       
         />
         <div className="button rounded-full">
-          <Link href="/auth/signup">
+          <Link href= {"auth/logIn"}>
             <div className="w-[116px] h-[30px] mx-6 text-black text-[20px] font-semibold capitalize cursor-pointer">
               constellate
             </div>

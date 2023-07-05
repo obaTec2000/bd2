@@ -8,11 +8,11 @@ export default function Signup() {
       </div>
 
       <div className="bg-black flex flex-col">
-        <h1 className="text-3xl font-semibold text-center text-white mt-10">
+        <h1 className="text-3xl font-semibold text-center text-white mt-8">
           BLACKDEFYNITION
         </h1>
 
-        <form className=" w-full mx-auto rounded-1g p-5 px-8">
+        <form className=" w-full mx-auto rounded-1g p-4 px-8">
           <div className="mb-2">
             <p className="text-white">Create your Account!</p>
             <label
@@ -24,7 +24,7 @@ export default function Signup() {
             <input
               type="text"
               id="fname"
-              className="shadow appearance-none border rounded-full w-full py-2 mt-5 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              className="shadow appearance-none border rounded-full w-full py-2 mt-5 px-6  text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               placeholder="First name"
               required
             />{" "}
@@ -37,7 +37,7 @@ export default function Signup() {
             <input
               type="text"
               id="lname"
-              className="shadow appearance-none border rounded-full w-full py-2 mt-5 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              className="shadow appearance-none border rounded-full w-full py-2 mt-5 px-6 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               placeholder="Last name"
               required
             />{" "}
@@ -48,7 +48,7 @@ export default function Signup() {
               htmlFor="email"
             ></label>
             <input
-              className="shadow appearance-none border rounded-full w-full py-2 mt-5 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              className="shadow appearance-none border rounded-full w-full py-2 mt-5 px-6 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               id="email"
               type="email"
               placeholder="Email"
@@ -62,7 +62,7 @@ export default function Signup() {
             <input
               type="password"
               placeholder="Password"
-              className="block w-full px-4 py-2 mt-5 text-black bg-white border rounded-full focus:border-black focus:ring-black focus:outline-none focus:ring focus:ring-opacity-40"
+              className="block w-full px-6 py-2 mt-5 text-black bg-white border rounded-full focus:border-black focus:ring-black focus:outline-none focus:ring focus:ring-opacity-40"
             />
           </div>
           <div className="mb-2">
@@ -73,10 +73,10 @@ export default function Signup() {
             <input
               type="password"
               placeholder="Confirm Password"
-              className="block w-full px-4 py-2 mt-5 text-black bg-white border rounded-full focus:border-black focus:ring-black focus:outline-none focus:ring focus:ring-opacity-40"
+              className="block w-full px-6 py-2 mt-5 text-black bg-white border rounded-full focus:border-black focus:ring-black focus:outline-none focus:ring focus:ring-opacity-40"
             />
           </div>
-          <h1 className="text-gray-300">Gender</h1>
+          <h1 className="text-[#808080]">Gender</h1>
 
           <div className="flex">
             <div className="flex items-center accent-black mr-4 mt-1">
@@ -127,7 +127,7 @@ export default function Signup() {
               By creating your account, you agree with our{" "}
               <a
                 href="https://transparency.fb.com/en-gb/policies/community-standards/privacy-violations//"
-                className="text-gray-300 hover:underline dark:text-grey"
+                className="text-[#808080] hover:underline dark:text-grey"
               >
                 terms of use & privacy policy
               </a>
@@ -135,21 +135,21 @@ export default function Signup() {
           </div>
           <div className="text-center lg:text-">
             <a
-             
+             href="logIn"
               type="button"
-              className="rounded-full mt-5  px-6 pb-1 pt-2 text-xl  text-black  bg-white"
+              className="rounded-full mt-4  px-6 pb-1 pt-2 text-xl  text-black  bg-white"
             >
               Sign in
             </a>
           </div>
         </form>
 
-        <p className="text-xs  text-center text-white ">
+        <p className="text-sm  text-center text-white ">
           {" "}
           Already have an account?{" "}
           <a
            
-            className="font:medium  text-gray-300 hover:underline"
+            className="font:medium  text-[#808080] hover:underline"
           >
             Login
           </a>

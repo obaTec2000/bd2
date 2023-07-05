@@ -37,7 +37,7 @@ export default function Forgot() {
   
             <div className="text-center">
               <a
-                href="login"
+                href="logIn"
                 className="rounded-full px-6 pb-1 pt-2 text-xl uppercase mt-10 sm:mt-80 text-black bg-white inline-block"
                 data-te-ripple-init
                 data-te-ripple-color="light"
